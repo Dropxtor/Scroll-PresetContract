@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
 
 contract WeightedVoting is ERC20 {
-    string private salt = "210693"; 
+    string private salt = "14568909"; 
     using EnumerableSet for EnumerableSet.AddressSet;
 
     error TokensClaimed();
